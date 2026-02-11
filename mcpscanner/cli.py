@@ -1719,7 +1719,6 @@ async def main():
                     if func_findings[0].details
                     else source_path
                 )
-                import os
 
                 display_name = (
                     os.path.basename(source_file)
